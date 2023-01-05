@@ -1,0 +1,25 @@
+@use "color";
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  background-color: rgba(color.$base-color, $alpha: .75);
+backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  span {
+    color: color.$gray-like;
+  }
+  ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+   
+    li {
+      color: color.$gray-like;
+      display: inline;
+    }
+  }
+}

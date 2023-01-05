@@ -1,0 +1,8 @@
+@use "./assets/css/color";
+.App {
+  background-color: color.$base-color;
+  height: 500vh;
+  .content {
+    padding: 0 8%;
+  }
+}
